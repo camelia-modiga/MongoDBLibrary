@@ -1,0 +1,111 @@
+db = connect( 'mongodb://localhost/test' );
+
+db.clienti.insertMany(
+[
+{
+	nume:"Popescu",
+	prenume:"George",
+	date_contact:{
+		telefon:"0722330099",
+		email:"popescu.george@yahoo.com",
+		oras:"Iasi"
+	}
+},
+{
+	nume:"Ionescu",
+	prenume:"Maria",
+	date_contact:{
+		telefon:"0788964120",
+		email:"maria.ionescu@yahoo.com",
+		oras:"Bacau"
+	}
+},
+{
+	nume:"Vasiliu",
+	prenume:"Paul",
+	date_contact:{
+		telefon:"0765192761",
+		email:"paulvasiliu@yahoo.com",
+		oras:"Vaslui"
+	}
+},
+{
+	nume:"Creanga",
+	prenume:"Vlad",
+	date_contact:{
+		telefon:"0759075190",
+		email:"vlad.creanga@yahoo.com",
+		oras:"Bacau"
+	}
+},
+{
+	nume:"Popa",
+	prenume:"Claudiu",
+	date_contact:{
+		telefon:"0767807529",
+		email:"popa.claudiu@yahoo.com",
+		oras:"Suceava"
+	}
+},
+{
+	nume:"Stefan",
+	prenume:"Andrei",
+	date_contact:{
+		telefon:"0756782301",
+		email:"stefan09@yahoo.com",
+		oras:"Bacau"
+	}
+},
+{
+	nume:"Marin",
+	prenume:"Vasile",
+	date_contact:{
+		telefon:"0782027402",
+		email:"marin_vs@yahoo.com",
+		oras:"Iasi"
+	}
+},
+{
+	nume:"Georgescu",
+	prenume:"Cristina",
+	date_contact:{
+		telefon:"0789374292",
+		email:"cristina_georgecu98@yahoo.com",
+		oras:"Iasi"
+	}
+},
+{
+	nume:"Dumitriu",
+	prenume:"Bianca",
+	date_contact:{
+		telefon:"0723491082",
+		email:"bianca_dumitriu@yahoo.com",
+		oras:"Neamt"
+	}
+},
+{
+	nume:"Moraru",
+	prenume:"Crina",
+	date_contact:{
+		telefon:"0787292742",
+		oras:"Iasi"
+	}
+},
+{
+	nume:"Ionescu",
+	prenume:"Georgel",
+	date_contact:{
+		telefon:"0758751038",
+		oras:"Bacau"
+	}
+},
+{
+	nume:"Hutanu",
+	prenume:"Diana",
+	date_contact:{
+		telefon:"0786502635",
+		email:"hutanudiana05@yahoo.com",
+		oras:"Vaslui"
+	}
+}
+])

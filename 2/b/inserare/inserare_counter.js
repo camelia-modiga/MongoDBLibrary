@@ -1,0 +1,1 @@
+db.counter.insertOne ( {_id: "item_id" , sequence_value : 0 } )

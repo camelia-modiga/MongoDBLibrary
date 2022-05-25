@@ -1,0 +1,40 @@
+carti{
+      _id: ObjectId,
+    "titlu": string,
+    "gen literar":string,
+    "autor": string
+    "editura":string,
+    "cantitate":integer,
+    "pret":double,
+    "disponibil": boolean
+}
+
+clienti{
+    _id: ObjectId,
+    "nume": string,
+    "prenume": string,
+    "date_contact":
+    {
+        "telefon": string,
+       "email": string,
+       "oras": string
+     }
+}
+
+comenzi{
+    _id: integer,
+    "id_client": ObjectId,
+    "carti":[
+    {
+        "id_carte": ObjectId,
+        "cantitate": integer
+    }],
+    "data": date,
+    "total": double,
+    "status": Regular expression 
+}
+
+counter{
+	_id: string,
+	sequence_value: integer
+}
